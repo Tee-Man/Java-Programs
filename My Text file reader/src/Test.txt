@@ -1,0 +1,124 @@
+HTML <a> download Attribute
+
+Example
+Download file when clicking on the link (instead of navigating to the file):
+
+<a href="/images/myw3schoolsimage.jpg" download>
+More "Try it Yourself" examples below.
+
+Definition and Usage
+The download attribute specifies that the target will be downloaded when a user clicks on the hyperlink.
+
+This attribute is only used if the href attribute is set.
+
+The value of the attribute will be the name of the downloaded file. There are no restrictions on allowed values, and the browser will automatically detect the correct file extension and add it to the file (.img, .pdf, .txt, .html, etc.).
+
+If the value is omitted, the original filename is used.
+
+Browser Support
+The numbers in the table specify the first browser version that fully supports the attribute.
+
+Attribute
+download	14.0*	13.0	20.0*	10.1	15.0
+* Chrome 65+ and Firefox only support same-origin download links.
+
+Differences Between HTML 4.01 and HTML5
+The download attribute is new for the <a> tag in HTML5.
+
+Syntax
+<a download="filename">
+Attribute Values
+Value	Description
+filename	Optional. Specifies the new filename for the downloaded file
+More Examples
+Example
+Specify a value for the download attribute, which will be the new filename of the downloaded file ("w3logo.jpg" instead of "myw3schoolsimage.jpg"):
+
+<a href="/images/myw3schoolsimage.jpg" download="w3logo">
+COLOR PICKER
+colorpicker
+HOW TO
+Tabs
+Dropdowns
+Accordions
+Side Navigation
+Top Navigation
+Modal Boxes
+Progress Bars
+Parallax
+Login Form
+HTML Includes
+Google Maps
+Range Sliders
+Tooltips
+Slideshow
+Filter List
+Sort List
+SHARE
+
+
+CERTIFICATES
+HTML
+CSS
+JavaScript
+SQL
+Python
+PHP
+jQuery
+Bootstrap
+XML
+
+Top Tutorials
+HTML Tutorial
+CSS Tutorial
+JavaScript Tutorial
+How To Tutorial
+SQL Tutorial
+Python Tutorial
+W3.CSS Tutorial
+Bootstrap Tutorial
+PHP Tutorial
+jQuery Tutorial
+Java Tutorial
+C++ Tutorial
+Top References
+HTML Reference
+CSS Reference
+JavaScript Reference
+SQL Reference
+Python Reference
+W3.CSS Reference
+Bootstrap Reference
+PHP Reference
+HTML Colors
+jQuery Reference
+Java Reference
+Angular Reference
+Top Examples
+HTML Examples
+CSS Examples
+JavaScript Examples
+How To Examples
+SQL Examples
+Python Examples
+W3.CSS Examples
+Bootstrap Examples
+PHP Examples
+jQuery Examples
+Java Examples
+XML Examples
+Web Certificates
+HTML Certificate
+CSS Certificate
+JavaScript Certificate
+SQL Certificate
+Python Certificate
+jQuery Certificate
+PHP Certificate
+Bootstrap Certificate
+XML Certificate
+W3Schools is optimized for learning, testing, and training. Examples might be simplified to improve reading and basic understanding. Tutorials, references, and examples are constantly reviewed to avoid errors, but we cannot warrant full correctness of all content. While using this site, you agree to have read and accepted our terms of use, cookie and privacy policy. Copyright 1999-2020 by Refsnes Data. All Rights Reserved.
+Powered by W3.CSS.
+
+W3Schools.com
+
